@@ -981,6 +981,13 @@ footer a:hover {
         grid-template-columns: 1fr; /* Single column layout on mobile */
         gap: 2rem; /* Space between contact info and form */
         padding: 0; /* Remove extra padding */
+        display: flex; /* Use flexbox for mobile */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    /* Reorder so form appears first on mobile */
+    .contact-grid article:nth-child(2) {
+        order: -1; /* Move form to top */
     }
 
     .contact-grid article {
