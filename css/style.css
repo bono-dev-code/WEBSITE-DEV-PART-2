@@ -971,6 +971,70 @@ footer a:hover {
         margin: 0 auto; /* Center the button */
         line-height: 1.2; /* Better text line height */
     }
+
+    /* Mobile Contact Form Styles */
+    .contact-info {
+        padding: 1rem; /* Reduced padding for mobile */
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr; /* Single column layout on mobile */
+        gap: 2rem; /* Space between contact info and form */
+        padding: 0; /* Remove extra padding */
+    }
+
+    .contact-grid article {
+        margin: 0; /* Remove margins for better mobile layout */
+    }
+
+    .contact-grid article h3 {
+        font-size: 1.5rem; /* Smaller heading for mobile */
+        margin-bottom: 1rem; /* Space below heading */
+    }
+
+    /* Mobile Form Element Styles */
+    .form-group {
+        margin-bottom: 1.5rem; /* Maintain spacing between form fields */
+    }
+
+    .form-group label {
+        font-size: 1rem; /* Readable label size */
+        margin-bottom: 0.5rem; /* Space below labels */
+        display: block; /* Ensure labels are on their own line */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%; /* Full width inputs */
+        padding: 1rem; /* Larger touch-friendly padding */
+        font-size: 1rem; /* Larger text for mobile */
+        border: 2px solid var(--border-color); /* Slightly thicker border */
+        border-radius: 8px; /* More rounded corners */
+        min-height: 48px; /* Proper touch target size */
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+
+    .form-group textarea {
+        min-height: 120px; /* Minimum height for textarea */
+        resize: vertical; /* Allow vertical resizing only */
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+        outline: none; /* Remove default outline */
+        border-color: var(--primary-color); /* Red border on focus */
+        box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.2); /* Larger focus ring */
+    }
+
+    /* Mobile Contact Form Submit Button */
+    .contact-grid .cta-button {
+        width: 100%; /* Full width button */
+        padding: 1rem 2rem; /* Larger padding for mobile */
+        font-size: 1.1rem; /* Larger text */
+        min-height: 56px; /* Proper touch target */
+        margin-top: 1rem; /* Space above button */
+        border-radius: 8px; /* More rounded corners */
+    }
     
     /* Team section adjustments for mobile */
     .team-members {
