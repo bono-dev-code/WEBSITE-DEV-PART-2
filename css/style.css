@@ -1227,3 +1227,37 @@ input:focus, textarea:focus, select:focus {
 .nav-toggle {
     display: none;
 }
+
+/*
+   CONTACT CTA BUTTONS MOBILE SPACING
+   Ensures proper spacing between Contact Us and Make Enquiry buttons on mobile
+*/
+@media (max-width: 768px) {
+    .contact-cta-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    .contact-cta-buttons .cta-button {
+        width: 100%;
+        max-width: 15.625em;
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-cta-buttons {
+        gap: 0.75rem;
+        margin-top: 1rem;
+    }
+
+    .contact-cta-buttons .cta-button {
+        max-width: 200px;
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+ 
