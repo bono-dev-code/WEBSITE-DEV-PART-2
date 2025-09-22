@@ -836,7 +836,7 @@ footer a:hover {
     filter: brightness(0.85); /* Darkens slightly on hover */
 }
 
-/* 
+/*
    RESPONSIVE DESIGN: TABLET AND SMALLER
    Adjusts styles for screens 768px wide and below.
 */
@@ -846,6 +846,197 @@ footer a:hover {
         flex-direction: column; /* Stacks logo and nav vertically */
         text-align: center; /* Centers content */
         position: relative; /* Positioning context for hamburger */
+    }
+
+    /* Contact page specific mobile fixes */
+    .contact-hero {
+        padding: 2rem 1rem; /* Reduced padding for mobile */
+        margin-bottom: 2rem; /* Space below hero */
+    }
+
+    .contact-hero h2 {
+        font-size: 2rem; /* Smaller heading for mobile */
+        line-height: 1.2; /* Better line spacing */
+        word-wrap: break-word; /* Allow text to wrap */
+    }
+
+    /* Improved contact grid for mobile */
+    .contact-grid {
+        grid-template-columns: 1fr !important; /* Force single column */
+        gap: 2rem !important; /* Space between sections */
+        padding: 0 1rem !important; /* Add horizontal padding */
+        max-width: 100% !important; /* Ensure no overflow */
+        margin: 0 auto !important; /* Center the grid */
+        display: flex !important; /* Use flexbox for better mobile control */
+        flex-direction: column !important; /* Stack vertically */
+    }
+
+    /* Contact info article mobile styles */
+    .contact-info article {
+        margin: 0 !important; /* Remove margins */
+        padding: 1.5rem !important; /* Add padding for better spacing */
+        background: white; /* White background for contrast */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: var(--shadow); /* Subtle shadow */
+    }
+
+    .contact-info article h3 {
+        font-size: 1.5rem; /* Smaller heading */
+        margin-bottom: 1rem; /* Space below heading */
+        color: var(--primary-color); /* Maintain brand color */
+    }
+
+    /* Address and contact details mobile improvements */
+    .contact-info address {
+        font-style: normal; /* Remove italic for better mobile readability */
+        line-height: 1.6; /* Better line spacing */
+        margin-bottom: 1.5rem; /* Space below address */
+    }
+
+    .contact-info address p {
+        margin-bottom: 1rem; /* Space between address lines */
+        word-wrap: break-word; /* Break long words */
+        overflow-wrap: break-word; /* Better word breaking */
+    }
+
+    .contact-info p {
+        margin-bottom: 1rem; /* Space between contact methods */
+        line-height: 1.5; /* Better readability */
+    }
+
+    /* Contact links mobile improvements */
+    .contact-info a {
+        word-break: break-all; /* Break long URLs/emails */
+        display: inline-block; /* Better link handling */
+        max-width: 100%; /* Prevent overflow */
+    }
+
+    /* Map section mobile improvements */
+    .map-section {
+        padding: 0 1rem; /* Add horizontal padding */
+        margin-bottom: 2rem; /* Space below section */
+    }
+
+    .map-section h3 {
+        font-size: 1.5rem; /* Smaller heading */
+        margin-bottom: 1rem; /* Space below heading */
+        text-align: center; /* Center heading */
+    }
+
+    .map-container {
+        padding: 1rem 0; /* Vertical padding */
+        text-align: center; /* Center content */
+    }
+
+    .map-container p {
+        margin-bottom: 1rem; /* Space below description */
+        font-size: 0.9rem; /* Smaller text for mobile */
+        line-height: 1.4; /* Better readability */
+        padding: 0 0.5rem; /* Horizontal padding */
+    }
+
+    /* Map iframe mobile responsiveness */
+    .map-iframe-container {
+        width: 100%; /* Full width */
+        max-width: 100%; /* Prevent overflow */
+        border-radius: 10px; /* Rounded corners */
+        overflow: hidden; /* Hide overflow */
+        margin: 0 auto; /* Center the container */
+        box-shadow: var(--shadow); /* Subtle shadow */
+    }
+
+    .map-iframe-container iframe {
+        width: 100% !important; /* Force full width */
+        height: 300px !important; /* Fixed height for mobile */
+        max-width: 100% !important; /* Prevent horizontal overflow */
+        border: none !important; /* Remove border */
+        display: block; /* Ensure proper display */
+    }
+
+    /* Contact form mobile improvements */
+    .contact-grid form {
+        padding: 1.5rem; /* Add padding */
+        background: white; /* White background */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: var(--shadow); /* Subtle shadow */
+        margin: 0; /* Remove margins */
+    }
+
+    /* Form groups mobile spacing */
+    .form-group {
+        margin-bottom: 1.5rem !important; /* Space between form fields */
+    }
+
+    .form-group:last-child {
+        margin-bottom: 0 !important; /* Remove margin from last field */
+    }
+
+    /* Form labels mobile styles */
+    .form-group label {
+        font-size: 1rem; /* Readable label size */
+        margin-bottom: 0.5rem; /* Space below labels */
+        display: block; /* Ensure labels are on their own line */
+        font-weight: 600; /* Bold labels */
+        color: var(--primary-color); /* Brand color */
+    }
+
+    /* Form inputs mobile styles */
+    .form-group input,
+    .form-group textarea {
+        width: 100% !important; /* Force full width */
+        max-width: 100% !important; /* Prevent overflow */
+        padding: 1rem !important; /* Larger touch-friendly padding */
+        font-size: 1rem !important; /* Larger text for mobile */
+        border: 2px solid var(--border-color) !important; /* Slightly thicker border */
+        border-radius: 8px !important; /* More rounded corners */
+        min-height: 48px !important; /* Proper touch target size */
+        box-sizing: border-box !important; /* Include padding in width */
+        word-wrap: break-word; /* Break long words */
+        overflow-wrap: break-word; /* Better word breaking */
+    }
+
+    .form-group textarea {
+        min-height: 120px !important; /* Minimum height for textarea */
+        resize: vertical; /* Allow vertical resizing only */
+    }
+
+    /* Form focus states for mobile */
+    .form-group input:focus,
+    .form-group textarea:focus {
+        outline: none !important; /* Remove default outline */
+        border-color: var(--primary-color) !important; /* Red border on focus */
+        box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.2) !important; /* Larger focus ring */
+    }
+
+    /* Contact form submit button mobile styles */
+    .contact-grid .cta-button {
+        width: 100% !important; /* Full width button */
+        max-width: 100% !important; /* Prevent overflow */
+        padding: 1rem 2rem !important; /* Larger padding for mobile */
+        font-size: 1.1rem !important; /* Larger text */
+        min-height: 56px !important; /* Proper touch target */
+        margin-top: 1rem !important; /* Space above button */
+        border-radius: 8px !important; /* More rounded corners */
+        display: block !important; /* Ensure proper display */
+        box-sizing: border-box !important; /* Include padding in width */
+    }
+
+    /* Main content container mobile constraints */
+    main {
+        max-width: 100% !important; /* Prevent overflow */
+        padding: 0 1rem !important; /* Add horizontal padding */
+        overflow-x: hidden !important; /* Hide horizontal overflow */
+    }
+
+    /* Section spacing mobile adjustments */
+    section {
+        margin-bottom: 2rem !important; /* Space between sections */
+    }
+
+    /* Contact info section mobile padding */
+    .contact-info {
+        padding: 0 !important; /* Remove padding, handled by grid */
+        margin: 0 !important; /* Remove margins */
     }
     
     /* Hide navigation by default on mobile */
@@ -886,29 +1077,33 @@ footer a:hover {
     .nav-toggle {
         display: none; /* Hide the checkbox */
     }
-    
+
     .nav-toggle-label {
         display: flex; /* Flexbox for hamburger bars */
         flex-direction: column; /* Stacks bars vertically */
         justify-content: space-around; /* Spaces bars evenly */
-        width: 2rem; /* Button width */
-        height: 2rem; /* Button height */
+        width: 2.5rem; /* Button width */
+        height: 2.5rem; /* Button height */
         cursor: pointer; /* Hand cursor */
         position: absolute; /* Positions relative to header */
-        top: 3rem; /* Distance from top */
-        right: 2rem; /* Distance from right */
+        top: 1.5rem; /* Distance from top - adjusted for better visibility */
+        right: 1.5rem; /* Distance from right - adjusted for better positioning */
         z-index: 1100; /* Above other content */
+        padding: 0.5rem; /* Add padding for better touch target */
+        background: transparent; /* Transparent background */
+        border: none; /* Remove any border */
     }
-    
+
     .nav-toggle-label span {
         display: block; /* Makes bars block elements */
-        width: 2rem; /* Bar width */
+        width: 100%; /* Full width of container */
         height: 0.25rem; /* Bar height */
         background: var(--text-light); /* Light color for contrast */
         border-radius: 10px; /* Rounded ends */
         transition: all 0.3s linear; /* Smooth transition */
         position: relative; /* Positioning context */
         transform-origin: 1px; /* Rotation origin point */
+        opacity: 1; /* Ensure spans are visible */
     }
     
     /* Hamburger to X animation */
