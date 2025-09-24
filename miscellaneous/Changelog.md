@@ -49,6 +49,12 @@ STUDENT NAME
 - Created grid layout displaying product items with images, descriptions, and prices.
 - Consistent header and footer.
 
+## See Website Responsive Design ScreenShots
+./Assets/1.Mobile 320px
+./Assets/2.Tablet 768px
+./Assets/3.Laptop 1024px
+
+
 
 ## 📄 References
 
