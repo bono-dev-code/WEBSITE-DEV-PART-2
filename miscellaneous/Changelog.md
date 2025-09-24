@@ -1,6 +1,13 @@
 # 🥩 MeatMasters Butchery Website 
-STUDENT NAME 
-## NENGUDA BONO ST10484954
+
+## 👨‍💻 Author
+
+**Nenguda Bono**
+- **Student ID**: ST10484954
+- **Course**: Web Development
+- **Institution**:RoseBank college
+- **Project**: WEDE 5020 POE Part 2
+
 
 # Changelog for MeatMasters Butchery Website
 
@@ -53,8 +60,6 @@ STUDENT NAME
 ./Assets/1.Mobile 320px
 ./Assets/2.Tablet 768px
 ./Assets/3.Laptop 1024px
-
-
 
 ## 📄 References
 

@@ -1,126 +1,184 @@
-# 🥩 MeatMasters Butchery Website 
-STUDENT NAME 
-## NENGUDA BONO ST10484954
+# 🥩 MeatMasters Butchery Website
+## 👨‍💻 Author
 
-## 📋 Overview
-A comprehensive static website for **MeatMasters Butchery**, showcasing premium quality meats with an elegant, user-friendly interface. The website features product catalogs and enquiry forms, built with HTML5 and inline CSS for simplicity and performance.
+**Nenguda Bono**
+- **Student ID**: ST10484954
+- **Course**: Web Development
+- **Institution**:RoseBank college
+- **Project**: WEDE 5020 POE Part 2
 
-## 🏗️ Project Structure
+## 📋 Description
 
-```
-MeatMasters Butchery/
-├── index.html                # Homepage with hero slideshow and inline styling
-├── Pages/                    # All website pages with inline styling
-│   ├── about.html            # About Us page with team information
-│   ├── contact.html          # Contact page with form
-│   ├── enquiry.html          # Product enquiry form
-│   └── products.html         # Complete product catalog with filtering
-├── Assets/                   # Image assets organized by category
-│   ├── BEEF/                 # Beef product images (8 files)
-│   ├── CHICKEN/              # Chicken product images (8 files)
-│   ├── GOAT/                 # Goat product images (7 files)
-│   ├── LAMB/                 # Lamb product images (9 files)
-│   ├── PORK/                 # Pork product images (8 files)
-│   ├── meatmasters logo hero.png
-│   ├── meat.jpg
-│   ├── nenguda bono.jpg      # Staff member photo
-│   ├── sarah khumalo.jpg     # Staff member photo
-│   └── thomas van der merwe.jpg # Staff member photo
-├── css/                      # Styling directory (currently empty)
-├── miscellaneous/            # Documentation
-│   └── README.md            # This documentation file
-└── (Inline CSS)             # All styling implemented directly in HTML files
-```
+MeatMasters Butchery is a premium static website designed for a family-run meat retailer in South Africa. The website showcases high-quality, ethically sourced meats including beef, chicken, lamb, pork, and goat. Built as a student project, it features a modern, responsive design with intuitive navigation and comprehensive product information.
 
-## 🎯 Key Features
+**Key Highlights:**
+- Responsive design optimized for mobile, tablet, and desktop
+- Interactive product catalog with category filtering
+- Contact and enquiry forms for customer engagement
+- Integrated Google Maps for location services
+- Professional branding with custom color schemes and typography
 
-### 🛒 Product Catalog
-- **5 Meat Categories**: Beef, Chicken, Lamb, Pork, Goat
-- **30+ Products** with detailed descriptions and pricing
-- Interactive filtering system
-- Responsive grid layout
+## ✨ Features
 
-### 📝 Forms & Functionality
-- **Contact Form**: Direct communication with the butchery
-- **Enquiry Form**: Product-specific inquiries
+### 🏠 Homepage
+- **Hero Slideshow**: Automatic rotating banner showcasing different meat categories
+- **Featured Products**: Highlighted premium cuts with pricing
+- **About Preview**: Company story and mission statement
+- **Services Overview**: Delivery, wholesale, and expert advice information
+- **Call-to-Action**: Prominent contact buttons
+
+### 📄 About Us Page
+- **Company History**: Founded in 2017 as a family business
+- **Mission & Vision**: Commitment to quality and ethical sourcing
+- **Team Profiles**: Meet the founder and key staff members
+- **Business Values**: Traditional craftsmanship meets modern convenience
+
+### 🛒 Products Page
+- **Category Filtering**: Filter products by Beef, Chicken, Lamb, Pork, Goat, or All
+- **Product Grid**: Detailed listings with images, descriptions, and prices
+- **Comprehensive Selection**: 30+ meat products across all categories
+- **Pricing Information**: Transparent pricing for all cuts
+
+### 📝 Enquiry Page
+- **Quote Requests**: Form for requesting product quotes
+- **Order Placement**: Direct ordering functionality
+- **Bulk Orders**: Wholesale and bulk purchase options
+- **Process Timeline**: Clear explanation of enquiry handling
+
+### 📞 Contact Page
+- **Business Information**: Address, phone, email, and hours
+- **Contact Form**: Direct messaging capability
+- **Location Map**: Embedded Google Maps integration
+- **Social Media Links**: Facebook, WhatsApp, TikTok, Instagram
 
 ### 📱 Responsive Design
-- Mobile-friendly navigation
-- Adaptive grid layouts
-- Touch-friendly interface elements
+- **Mobile-First**: Optimized for smartphones (320px+)
+- **Tablet Support**: Enhanced experience for tablets (768px+)
+- **Desktop Enhancement**: Full feature set for large screens (1024px+)
+- **Hamburger Navigation**: Mobile-friendly menu system
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic markup with accessibility features and inline styling
-- **CSS3**: Modern styling implemented directly in HTML files
-- **Font Awesome**: Icon library for social media
-- **Google Fonts**: Merriweather & Open Sans typography
+### Core Technologies
+- **HTML5**: Semantic markup and accessibility features
+- **CSS3**: Custom properties, Grid, Flexbox, and animations
 
-## 🚀 How to Run
+### External Libraries & Services
+- **Google Fonts**: Merriweather and Open Sans typography
+- **Font Awesome**: Icon library for social media and UI elements
+- **Google Maps Embed**: Interactive location mapping
 
-1. **Download or clone** the project to your local machine
-2. **Open `index.html`** in any modern web browser (no server required)
-3. **Navigate** through the website using the menu:
-   - Home: Main landing page
-   - About Us: Company information and team profiles
-   - Products: Complete meat catalog
-   - Enquire: Product-specific enquiry form
-   - Contact: Contact information and communication form
+### Development Tools
+- **CSS Variables**: Consistent color scheme and theming
+- **Media Queries**: Responsive breakpoints and mobile optimization
+- **CSS Grid & Flexbox**: Modern layout techniques
+- **Form Validation**: HTML5 form controls and accessibility
 
-## 📊 Product Categories & Pricing
+## 📁 Project Structure
 
-### 🐄 Beef Products (From R49.99/kg)
-- Ribeye Steak, Sirloin Steak, T-Bone Steak
-- Beef Fillet, Rump Steak, Beef Mince
+```
+MeatMasters Website/
+├── index.html              # Homepage with slideshow and featured content
+├── Pages/
+│   ├── about.html          # Company story, team, and values
+│   ├── products.html       # Product catalog with filtering
+│   ├── enquiry.html        # Quote and order forms
+│   └── contact.html        # Contact information and map
+├── Assets/
+│   ├── meatmasters logo hero.png    # Main logo
+│   ├── meat.jpg                     # Hero banner image
+│   ├── BEEF/                        # Beef product images
+│   ├── CHICKEN/                     # Chicken product images
+│   ├── LAMB/                        # Lamb product images
+│   ├── PORK/                        # Pork product images
+│   ├── GOAT/                        # Goat product images
+│   └── [team photos]                # Staff photographs
+├── css/
+│   └── style.css           # Main stylesheet with responsive design
+├── miscellaneous/
+│   └── Changelog.md        # Development history and updates
+└── README.md               # This file
+```
 
-### 🐔 Chicken Products (From R39.99/kg)  
-- Chicken Breast, Thighs, Wings
-- Drumsticks, Whole Chicken, Quarters
+## 🚀 Installation & Setup
 
-### 🐑 Lamb Products (From R69.99/kg)
-- Lamb Chops, Leg, Shoulder
-- Ribs, Mince, Stew pieces
+### Prerequisites
+- Download or Clone this Repository
+- Any Modern web browser (Chrome, Firefox, Safari, Edge)
+- No server required - static HTML/CSS only
 
-### 🐖 Pork Products (From R39.99/kg)
-- Pork Chops, Ribs, Belly
-- Shoulder, Sausages, Bacon
 
-### 🐐 Goat Products (From R69.99/kg)
-- Goat Chops, Leg, Shoulder
-- Ribs, Mince, Stew pieces
+### Running the Website
+1. **Clone or Download**: Obtain the project files
+2. **Open in Browser**: Double-click `index.html` or drag to browser
+3. **Navigate**: Use the menu to explore different sections
 
-## 🏢 Business Information
+### Local Development
+- Open files in any code editor (VS Code, Sublime, etc.)
+- Make changes and refresh browser to see updates
+- No build process required
 
-**MeatMasters Butchery**  
-📍 The Greenery, 54 Oost St, Polokwane Ext 4 Polokwane, 0700 South Africa  
-📞 012 345 6789  
-✉️ info@meatmasters.co.za  
+## 📖 Usage Guide
 
-**Business Hours:**  
-- Monday - Friday: 8am - 6pm  
-- Saturday: 8am - 4pm  
-- Sunday: 9am - 2pm  
+### Navigation
+- **Desktop**: Use the top navigation menu
+- **Mobile**: Tap the hamburger icon (☰) to access menu
+- **Slideshow**: Click dots or arrows to navigate banner
+- **Products**: Navigate through all products to view the products
 
-## 📝 Future Enhancements
+### Forms
+- **Contact Form**: Fill all required fields and submit
+- **Enquiry Form**: Select enquiry type and provide details
+- **Validation**: Forms include basic HTML5 validation
 
-- [ ] Implement external CSS files for better code organization
-- [ ] Create external JavaScript files for modular development
-- [ ] Add shopping cart functionality
-- [ ] Integrate payment processing
-- [ ] Add user authentication system
-- [ ] Implement product search feature
-- [ ] Add image zoom functionality for products
-- [ ] Create admin dashboard for product management
-- [ ] Add multilingual support
-- [ ] Implement comprehensive SEO optimization
-- [ ] Add product favorites/wishlist feature
-- [ ] Implement newsletter subscription
-- [ ] Add social media integration
+### Features
+- **Image Zoom**: Hover over product images for subtle zoom effect
+- **Social Links**: Click icons to visit social media pages
+- **Map Integration**: View business location on embedded map
 
-## 📄 License & Attribution
+## 📸 Screenshots
 
-Freepik. (n.d.). Images sourced from Freepik. Available at: https://www.freepik.com.
+Responsive design screenshots are available in the Assets folder:
+- `./Assets/1.Mobile 320px` - Mobile layout
+- `./Assets/2.Tablet 768px` - Tablet layout
+- `./Assets/3.Laptop 1024px` - Desktop layout
+
+## 🔮 Future Enhancements
+
+### Frontend Improvements
+- **JavaScript Interactivity**: Add dynamic filtering and form validation
+- **Image Galleries**: Lightbox functionality for product photos
+- **Search Functionality**: Product search and advanced filtering
+- **Animations**: Enhanced CSS animations and transitions
+
+### E-commerce Features
+- **Shopping Cart**: Add to cart and checkout functionality
+- **Product Reviews**: Customer feedback and ratings
+- **Loyalty Program**: Points system for repeat customers
+- **Email Notifications**: Order confirmations and updates
+
+### Technical Improvements
+- **Progressive Web App**: Offline functionality and app-like experience
+- **SEO Optimization**: Meta tags, structured data, and performance
+- **Accessibility**: WCAG compliance and screen reader support
+- **Analytics**: Google Analytics integration for insights
+
+### Content Management
+- **Admin Panel**: Content management system for easy updates
+- **Blog Section**: Meat preparation tips and recipes
+- **Newsletter**: Email subscription for promotions
+
+### Code Standards
+- Use semantic HTML5 elements
+- Follow CSS naming conventions
+- Maintain responsive design principles
+- Test across multiple browsers and devices
+- Include comments for complex CSS rules
+
+
 
 ---
 
-**MeatMasters Butchery** - Where Flavor Meets Perfection since 2017 🥩
+**MeatMasters Butchery** - *Where Flavor Meets Perfection since 2017* 🥩
+
+*Premium quality meats, expertly cut and ethically sourced. From our family to yours.*
